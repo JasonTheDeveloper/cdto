@@ -165,7 +165,8 @@
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					8D5B49AC048680CD000E48DA = {
-						DevelopmentTeam = VURRGRYW45;
+						DevelopmentTeam = 5567X9EQ9Q;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -278,8 +279,8 @@
 		69F8B17F1836008300EC6853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 5567X9EQ9Q;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
@@ -290,9 +291,9 @@
 		69F8B1801836008300EC6853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5567X9EQ9Q;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				PRODUCT_NAME = terminal;
 			};

@@ -140,7 +140,7 @@
 		69968DC018385B3300FB4A35 /* Terminal Plugin */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "terminal/cd to.app/Contents/PlugIns";
+			dstPath = terminal/cd_to.app/Contents/PlugIns;
 			dstSubfolderSpec = 16;
 			files = (
 				69968DC118385B4C00FB4A35 /* terminal.bundle in Terminal Plugin */,
@@ -162,7 +162,7 @@
 		69968DC418385C5700FB4A35 /* iTerm Plugin */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "iterm/cd to.app/Contents/PlugIns";
+			dstPath = iterm/cd_to.app/Contents/PlugIns;
 			dstSubfolderSpec = 16;
 			files = (
 				69968DC518385C8800FB4A35 /* iterm.bundle in iTerm Plugin */,
@@ -184,7 +184,7 @@
 		69968DC818385D2B00FB4A35 /* X11 xterm Plugin */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "x11_xterm/cd to.app/Contents/PlugIns";
+			dstPath = x11_xterm/cd_to.app/Contents/PlugIns;
 			dstSubfolderSpec = 16;
 			files = (
 				69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */,
@@ -460,13 +460,13 @@
 			);
 			name = "Sign apps";
 			outputPaths = (
-				"$(CONFIGURATION_BUILD_DIR)/terminal/cd to.app",
-				"$(CONFIGURATION_BUILD_DIR)/iterm/cd to.app",
-				"$(CONFIGURATION_BUILD_DIR)/x11_xterm/cd to.app",
+				"$(CONFIGURATION_BUILD_DIR)/terminal/cd_to.app",
+				"$(CONFIGURATION_BUILD_DIR)/iterm/cd_to.app",
+				"$(CONFIGURATION_BUILD_DIR)/x11_xterm/cd_to.app",
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "echo \"sign $CONFIGURATION_BUILD_DIR/terminal/cd to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/iterm/cd to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/x11_xterm/cd to.app\"\n\ncodesign -s \"Developer ID Application: James Tuley (VURRGRYW45)\" \"$CONFIGURATION_BUILD_DIR/terminal/cd to.app\" \"$CONFIGURATION_BUILD_DIR/iterm/cd to.app\" \"$CONFIGURATION_BUILD_DIR/x11_xterm/cd to.app\"\n\nmkdir -p \"$TARGET_BUILD_DIR\"\nmv \"$CONFIGURATION_BUILD_DIR/terminal\" \"$TARGET_BUILD_DIR/terminal\"\nmv \"$CONFIGURATION_BUILD_DIR/iterm\" \"$TARGET_BUILD_DIR/iterm\"\nmv \"$CONFIGURATION_BUILD_DIR/x11_xterm\" \"$TARGET_BUILD_DIR/x11_xterm\"\n\n";
+			shellScript = "echo \"sign $CONFIGURATION_BUILD_DIR/terminal/cd_to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/iterm/cd_to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/x11_xterm/cd_to.app\"\n\ncodesign -s \"Developer ID Application: Evgeny Aleksandrov (5567X9EQ9Q)\" \"$CONFIGURATION_BUILD_DIR/terminal/cd_to.app\" \"$CONFIGURATION_BUILD_DIR/iterm/cd_to.app\" \"$CONFIGURATION_BUILD_DIR/x11_xterm/cd_to.app\"\n\nmkdir -p \"$TARGET_BUILD_DIR\"\nmv \"$CONFIGURATION_BUILD_DIR/terminal\" \"$TARGET_BUILD_DIR/terminal\"\nmv \"$CONFIGURATION_BUILD_DIR/iterm\" \"$TARGET_BUILD_DIR/iterm\"\nmv \"$CONFIGURATION_BUILD_DIR/x11_xterm\" \"$TARGET_BUILD_DIR/x11_xterm\"\n\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
