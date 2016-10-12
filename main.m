@@ -1,6 +1,6 @@
 //
 //  main.m
-//  cd to ...
+//  cd to
 //
 //  Created by James Tuley on 2/16/07.
 //  Copyright Jay Tuley 2007. All rights reserved.

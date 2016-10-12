@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		69968DB2183859F400FB4A35 /* cd to all */ = {
+		69968DB2183859F400FB4A35 /* cd_to all */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 69968DB5183859F400FB4A35 /* Build configuration list for PBXAggregateTarget "cd to all" */;
+			buildConfigurationList = 69968DB5183859F400FB4A35 /* Build configuration list for PBXAggregateTarget "cd_to all" */;
 			buildPhases = (
 				69968DBE18385A2C00FB4A35 /* Terminal */,
 				69968DC018385B3300FB4A35 /* Terminal Plugin */,
@@ -25,7 +25,7 @@
 				69968DBB18385A0500FB4A35 /* PBXTargetDependency */,
 				69968DBD18385A0500FB4A35 /* PBXTargetDependency */,
 			);
-			name = "cd to all";
+			name = "cd_to all";
 			productName = "cd to all";
 		};
 /* End PBXAggregateTarget section */
@@ -35,14 +35,14 @@
 		6947E8C713DA6362008C982D /* lion.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6947E8C613DA6362008C982D /* lion.icns */; };
 		6963D7FD1835ED290039592E /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 6963D7FC1835ED290039592E /* LICENSE.md */; };
 		69968DC118385B4C00FB4A35 /* terminal.bundle in Terminal Plugin */ = {isa = PBXBuildFile; fileRef = 69449AA50B89080600A19631 /* terminal.bundle */; };
-		69968DC318385C2C00FB4A35 /* cd to.app in iTerm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
+		69968DC318385C2C00FB4A35 /* cd_to.app in iTerm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd_to.app */; };
 		69968DC518385C8800FB4A35 /* iterm.bundle in iTerm Plugin */ = {isa = PBXBuildFile; fileRef = 69449D880B894DBF00A19631 /* iterm.bundle */; };
-		69968DC718385CFC00FB4A35 /* cd to.app in X11 xterm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
+		69968DC718385CFC00FB4A35 /* cd_to.app in X11 xterm */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd_to.app */; };
 		69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */ = {isa = PBXBuildFile; fileRef = 69449C110B892D0B00A19631 /* X11_xterm.bundle */; };
 		69C8A98E106E818900C4DE0D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */; };
 		69C8AA71106E8F5800C4DE0D /* Finder.app in Resources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
 		69C8AA89106EE02F00C4DE0D /* Finder.app in Sources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
-		69E2DFD718387F4500B7DEA3 /* cd to.app in Terminal */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
+		69E2DFD718387F4500B7DEA3 /* cd_to.app in Terminal */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd_to.app */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -131,7 +131,7 @@
 			dstPath = terminal;
 			dstSubfolderSpec = 16;
 			files = (
-				69E2DFD718387F4500B7DEA3 /* cd to.app in Terminal */,
+				69E2DFD718387F4500B7DEA3 /* cd_to.app in Terminal */,
 			);
 			name = Terminal;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +153,7 @@
 			dstPath = iterm;
 			dstSubfolderSpec = 16;
 			files = (
-				69968DC318385C2C00FB4A35 /* cd to.app in iTerm */,
+				69968DC318385C2C00FB4A35 /* cd_to.app in iTerm */,
 			);
 			name = iTerm;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +175,7 @@
 			dstPath = x11_xterm;
 			dstSubfolderSpec = 16;
 			files = (
-				69968DC718385CFC00FB4A35 /* cd to.app in X11 xterm */,
+				69968DC718385CFC00FB4A35 /* cd_to.app in X11 xterm */,
 			);
 			name = "X11 xterm";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +200,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* cd to ..._Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cd to ..._Prefix.pch"; sourceTree = "<group>"; };
 		69449A9C0B89080600A19631 /* terminal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = terminal.xcodeproj; path = plugins/terminal/terminal.xcodeproj; sourceTree = "<group>"; };
 		69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CD2PluginProtocolV1.h; path = plugins/CD2PluginProtocolV1.h; sourceTree = "<group>"; };
 		69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = X11_xterm.xcodeproj; path = plugins/X11_xterm/X11_xterm.xcodeproj; sourceTree = "<group>"; };
@@ -210,7 +209,7 @@
 		69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		69C8AA70106E8F5800C4DE0D /* Finder.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Finder.app; path = /System/Library/CoreServices/Finder.app; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* cd_to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cd_to.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,7 +254,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* cd to.app */,
+				8D1107320486CEB800E47090 /* cd_to.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,7 +277,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* cd to ..._Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -349,9 +347,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* cd to */ = {
+		8D1107260486CEB800E47090 /* cd_to */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd to" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd_to" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -363,10 +361,10 @@
 			);
 			dependencies = (
 			);
-			name = "cd to";
+			name = cd_to;
 			productInstallPath = "$(HOME)/Applications";
 			productName = "cd to ...";
-			productReference = 8D1107320486CEB800E47090 /* cd to.app */;
+			productReference = 8D1107320486CEB800E47090 /* cd_to.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -375,14 +373,14 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = VURRGRYW45;
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd to ..." */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd_to" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -407,8 +405,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* cd to */,
-				69968DB2183859F400FB4A35 /* cd to all */,
+				8D1107260486CEB800E47090 /* cd_to */,
+				69968DB2183859F400FB4A35 /* cd_to all */,
 			);
 		};
 /* End PBXProject section */
@@ -502,7 +500,7 @@
 		};
 		69E2DFD618387DE700B7DEA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D1107260486CEB800E47090 /* cd to */;
+			target = 8D1107260486CEB800E47090 /* cd_to */;
 			targetProxy = 69E2DFD518387DE700B7DEA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -552,7 +550,8 @@
 				INSTALL_PATH = /unsigned;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CODE_SIGN_FLAGS = "";
-				PRODUCT_NAME = "cd to";
+				PRODUCT_BUNDLE_IDENTIFIER = name.tuley.jay.cdto;
+				PRODUCT_NAME = cd_to;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -571,7 +570,8 @@
 				INSTALL_PATH = /unsigned;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CODE_SIGN_FLAGS = "";
-				PRODUCT_NAME = "cd to";
+				PRODUCT_BUNDLE_IDENTIFIER = name.tuley.jay.cdto;
+				PRODUCT_NAME = cd_to;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -580,7 +580,23 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -592,7 +608,22 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -603,7 +634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69968DB5183859F400FB4A35 /* Build configuration list for PBXAggregateTarget "cd to all" */ = {
+		69968DB5183859F400FB4A35 /* Build configuration list for PBXAggregateTarget "cd_to all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69968DB3183859F400FB4A35 /* Debug */,
@@ -612,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd to" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd_to" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -621,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd to ..." */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd_to" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
