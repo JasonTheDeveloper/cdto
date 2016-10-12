@@ -9,11 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import "CD2PluginProtocolV1.h"
 
-@interface CD2X11XTermPlugin : NSObject <CD2PluginProtocolV1> {
+@interface CD2X11XTermPlugin : NSObject <CD2PluginProtocolV1>
 
-}
-
--(BOOL)openTermWindowForPath:(NSString*)aPath;
-
+- (BOOL)openTermWindowForPath:(NSString *)aPath;
 
 @end

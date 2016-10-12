@@ -34,7 +34,6 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* terminal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = terminal_Prefix.pch; sourceTree = "<group>"; };
 		69449A620B8906BF00A19631 /* CD2Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD2Terminal.h; sourceTree = "<group>"; };
 		69449A630B8906BF00A19631 /* CD2Terminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CD2Terminal.m; sourceTree = "<group>"; };
 		69449AF80B890BDD00A19631 /* CD2PluginProtocolV1.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CD2PluginProtocolV1.h; path = ../CD2PluginProtocolV1.h; sourceTree = SOURCE_ROOT; };
@@ -64,7 +63,6 @@
 				69C8AAD6106EEAB700C4DE0D /* Terminal.app */,
 				69449AF80B890BDD00A19631 /* CD2PluginProtocolV1.h */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
@@ -124,14 +122,6 @@
 				8D5B49B6048680CD000E48DA /* terminal.bundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		32C88E010371C26100C91783 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32DBCF630370AF2F00C91783 /* terminal_Prefix.pch */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
