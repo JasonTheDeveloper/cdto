@@ -1,5 +1,9 @@
 # cd to
 
+## Version 2.8
+
+* Adds Hyper plugin
+
 ## Version 2.7
 
 * El Capitan icon
