@@ -1,5 +1,9 @@
 # cd to...
 
+[![Latest Release](https://img.shields.io/github/release/ealeksandrov/cdto.svg)](https://github.com/ealeksandrov/cdto/releases/latest)
+[![License](https://img.shields.io/github/license/ealeksandrov/cdto.svg)](LICENSE.md)
+![Platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)
+
 <img src="graphics/sierra_app.png" height="128px" width="128px" />
 
 Finder Toolbar app to open the current directory in the Terminal (or [iTerm](https://www.iterm2.com), [Hyper](https://hyper.is), X11)
@@ -19,8 +23,8 @@ To use, just click on the new button and instanly opens a new terminal window.
 
 Created by [Jay Tuley](https://github.com/jbtule/cdto).
 
-Fork maintained by Evgeny Aleksandrov ([@EAleksandrov](https://twitter.com/EAleksandrov)).
+Fork maintained by Evgeny Aleksandrov ([@ealeksandrov](https://twitter.com/ealeksandrov)).
 
 ## License
 
-`cd to` is available under the MIT license. See the LICENSE file for more info.
+`cd to` is available under the MIT license. See the [LICENSE.md](LICENSE.md) file for more info.
