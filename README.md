@@ -1,6 +1,6 @@
 # cd to...
 
-<img src="https://raw.github.com/ealeksandrov/cdto/master/graphics/elcapitan.png" height="128px" width="128px" />
+<img src="graphics/sierra_app.png" height="128px" width="128px" />
 
 Finder Toolbar app to open the current directory in the Terminal (or [iTerm](https://www.iterm2.com), [Hyper](https://hyper.is), X11)
 
